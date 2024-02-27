@@ -1,0 +1,386 @@
+    1  git clone https://github.com/abidinz/hpc-training-linux.git
+    2  git clone git@github.com:abidinz/hpc-training-linux.git
+    3  git clone https://github.com/abidinz/hpc-training-linux.git
+    4  cd hpc-training-linux/
+    5  ls
+    6  ssh-keygen -t ed25519 -C "tr57 hpc litbang"
+    7  cat /home/tr57/.ssh/id_ed25519.pub
+    8  git remot -v
+    9  git remote -v
+   10  mkdir pemograman_shell
+   11  git status
+   12  ls
+   13  git add pemograman_shell/
+   14  git status
+   15  cd ..
+   16  rm -fr hpc-training-linux/
+   17  git clone git@github.com:abidinz/hpc-training-linux.git
+   18  git clone https://github.com/abidinz/hpc-training-linux.git
+   19  cd hpc-training-linux/
+   20  ls
+   21  git add pemograman_shell/
+   22  mkdir pemograman_shell/
+   23  git add .
+   24  git status
+   25  git remote -v
+   26  cd ..
+   27  rm -fr hpc-training-linux/
+   28  git clone git@github.com:abidinz/hpc-training-linux.git
+   29  ssh -T abidinz@github.com
+   30  ssh -T git@github.com
+   31  git clone https://github.com/abidinz/hpc-training-linux.git
+   32  cd hpc-training-linux/
+   33  sh echo.sh
+   34  cd
+   35  ls
+   36  cd hpc-training-linux/
+   37  git pull
+   38  ls
+   39  vi
+   40  nano
+   41  cd hpc-training-linux/
+   42  git pull
+   43  clear
+   44  cd
+   45  clear
+   46  ls
+   47  ls -l
+   48  pwd
+   49  clear
+   50  ls
+   51  cd hpc-training-linux/
+   52  pwd
+   53  ls
+   54  date
+   55  cal
+   56  df
+   57  df -h
+   58  pwd
+   59  ls -l
+   60  man ls
+   61  ls --version
+   62  clear
+   63  ls -S
+   64  ls -lS
+   65  ls -lSh
+   66  ls -lShs
+   67  ls -lShr
+   68  cd /bin/
+   69  ls
+   70  ls -lSh
+   71  ls -lShr
+   72  ls -ltr
+   73  ls -lt
+   74  ls -ltr
+   75  pwd
+   76  clear
+   77  cd
+   78  pwd
+   79  date
+   80  date +%Y
+   81  date +%Y%m%d
+   82  date
+   83  date -u
+   84  $TZ=Asia/Tokyo date
+   85  clear
+   86  cd hpc-training-linux/
+   87  ls 
+   88  cd data_csv/
+   89  ls
+   90  cd -
+   91  ls
+   92  cd pemograman_shell/
+   93  ls
+   94  cd ..
+   95  touch latihan.txt
+   96  ls -l
+   97  rm latihan.txt 
+   98  ls
+   99  clear
+  100  rm data_csv
+  101  rmdir data_csv
+  102  mkdir latihan
+  103  ls -l
+  104  rmdir latihan
+  105  ls -l
+  106  clear
+  107  ls
+  108  man rm
+  109  rm -fr data_csv
+  110  ls -l
+  111  rm -ir data_txt/
+  112  clear
+  113  git pull
+  114  ls -l
+  115  git fetch
+  116  ls
+  117  git pull
+  118  ls
+  119  cd ..
+  120  ls
+  121  rm -rf hpc-training-linux
+  122  git clone https://github.com/abidinz/hpc-training-linux.git
+  123  cd hpc-training-linux/
+  124  ls -l
+  125  clear
+  126  mkdir 2024
+  127  mkdir 2023 2022
+  128  ls -l
+  129  mkdir -p 2024/07/01 2023/07/01 2022/07/01
+  130  ls -lR
+  131  cd
+  132  ls -lR hpc-training-linux/2024/
+  133  cd hpc-training-linux/
+  134  ls -lR 2024/
+  135  clear
+  136  ls -l
+  137  ls /bin/
+  138  ls
+  139  rm pemrograman_shell/empty.txt 
+  140  ls data_txt/96749.2023-09-*
+  141  clear
+  142  whoami 
+  143  du
+  144  du -Sh
+  145  du -Shcr
+  146  du -ShcR
+  147  du -Sh
+  148  du -h --max-depth=1
+  149  du --version
+  150  uname
+  151  uname -a
+  152  cat /etc/os-release 
+  153  clear
+  154  ls
+  155  cp 
+  156  man cp
+  157  cd data_txt/
+  158  cd ..
+  159  cp logo-bmkg.png data_txt/
+  160  cp -v logo-bmkg.png data_txt/
+  161  clear
+  162  ls
+  163  cp -rv data_txt data_txt_backup
+  164  clear
+  165  ls
+  166  cd data_csv/
+  167  ls
+  168  cat /etc/os-release 
+  169  cat 1000baris.csv 
+  170  clear
+  171  less 1000baris.csv 
+  172  more 1000baris.csv 
+  173  ls -l
+  174  more currency.csv 
+  175  clear
+  176  head 1000baris.csv 
+  177  head -n 5 1000baris.csv 
+  178  tail 1000baris.csv 
+  179  tail -n 1 1000baris.csv 
+  180  tail -n5 1000baris.csv 
+  181  clear
+  182  ls
+  183  wc 1000baris.csv 
+  184  wc -l 1000baris.csv 
+  185  man wc
+  186  clear
+  187  ls
+  188  head country_full.csv 
+  189  grep Asia country_full.csv 
+  190  grep Indonesia country_full.csv 
+  191  grep ^U country_full.csv 
+  192  grep Korea$ country_full.csv 
+  193  grep 4$ country_full.csv 
+  194  clear
+  195  head country_full.csv 
+  196  cut -d, -f2 country_full.csv 
+  197  ls
+  198  clear
+  199  ls
+  200  head 1000baris.csv 
+  201  sort 1000baris.csv 
+  202  man sort
+  203  sort -r 1000baris.csv 
+  204  clear
+  205  head country_full.csv 
+  206  cut -d, -f1,2 country_full.csv 
+  207  cut -d, -f2,1 country_full.csv man
+  208  man cut
+  209  clear
+  210  cut -d, -f1,2 country_full.csv 
+  211  cut -d, -f1,2 country_full.csv | grep Islands
+  212  cut -d, -f1,2 country_full.csv
+  213  cut -d, -f1,2 country_full.csv | head -n -1
+  214  clear
+  215  cut -d, -f1,2 country_full.csv | head -n -1
+  216  cut -d, -f1,2 country_full.csv | head -n-1
+  217  cut -d, -f1,2 country_full.csv | sed '1d'
+  218  cut -d, -f1,2 country_full.csv | sed '1d' | grep Islands
+  219  head -n-1 country_full.csv 
+  220  clear
+  221  ls
+  222  cd hpc-training-linux/
+  223  ls
+  224  man find
+  225  find . -name *.txt
+  226  find . -name *.csv
+  227  ls
+  228  ls *.zip
+  229  clear
+  230  find . -name *.csv -exec ls -l {} 
+  231  find . -name *.csv -exec ls -l {} ;\
+  232  find . -name *.csv -exec ls -l {} \;
+  233  clear
+  234  find . -name *.csv -exec ls -l {} \;
+  235  find . -name *.csv 
+  236  ls -l ./data_csv/1000baris.csv 
+  237  ls -l
+  238  find . -mtime 5 
+  239  find . -mtime 1
+  240  find . -mtime 0
+  241  find . -atime 0 
+  242  find . -atime 1 
+  243  ls -l
+  244  find . -perm 755 
+  245  man find
+  246  clear
+  247  find . -name *.csv 
+  248  ls
+  249  mkdir csv_backup
+  250  find . -name *.csv -exec cp -v {} csv_backup/ \;
+  251  clear
+  252  find . -size 0
+  253  find . -size 0 -exec rm {} \;
+  254  cd data_txt
+  255  ls
+  256  ls ..
+  257  echo " Buat perintah dalam 1 baris untuk mengelompokkan setiap file .txt ke dalam directory Nomor Stasiun masing-masing"
+  258  ls | cut -d. -f1| sort -u 
+  259  ls 9* | cut -d. -f1| sort -u 
+  260  for sta in `ls 9* | cut -d. -f1| sort -u`; do mkdir $sta; mv -v ${sta}* ${sta}; done   
+  261  ls
+  262  for sta in `ls 9* | cut -d. -f1| sort -u`; do mkdir $sta; mv -v ${sta}* ${sta}; done   
+  263  clear
+  264  ls
+  265  which ls
+  266  ls -l /usr/bin/ls
+  267  whereis ls
+  268  whatis ls
+  269  whatis rm
+  270  whatis cp
+  271  clear
+  272  cd
+  273  ls
+  274  cd hpc-training-linux/
+  275  ls
+  276  clear
+  277  ls
+  278  cd data_csv/
+  279  ls
+  280  clear
+  281  vi 1000baris.csv 
+  282  nano 1000baris.csv 
+  283  vi 1000baris.csv 
+  284  clear
+  285  vimtutor
+  286  vi 1000baris.csv 
+  287  cd
+  288  cd hpc-training-linux/
+  289  clear
+  290  ls
+  291  zip data_txt_backup txt_backup.zip
+  292  zip data_txt_backup/ txt_backup.zip
+  293  ls
+  294  zip data_txt_backup/* txt_backup.zip
+  295  zip txt_backup.zip data_txt_backup
+  296  ls -l
+  297  clear
+  298  ls
+  299  unzip zlib131.zip 
+  300  ls
+  301  gzip logo-bmkg.png
+  302  ls
+  303  ls -l
+  304  gunzip logo-bmkg.png.gz 
+  305  ls -l
+  306  clear
+  307  tar
+  308  man tar
+  309  ls
+  310  ls
+  311  clear
+  312  ls
+  313  tar czvf pemrograman_shell.tar.gz pemrograman_shell/
+  314  ls
+  315  tar ztvf libjpeg-turbo-1.3.0.tar.gz 
+  316  cd hpc-training-linux/
+  317  ls
+  318  mkdir wdir
+  319  cd wdir/
+  320  clear
+  321  pwd
+  322  ls
+  323  ls ../
+  324  ln -s ../data_csv/* .
+  325  ls -l
+  326  head people.csv 
+  327  mv ../data_csv/people.csv ../data_csv/orang.csv
+  328  ls -l
+  329  rm currency.csv 
+  330  ls -l
+  331  ls -l ../data_csv/
+  332  vi country_full.csv 
+  333  head ../data_csv/country_full.csv 
+  334  ls -l
+  335  rm people.csv 
+  336  ln -s ../data_csv/orang.csv people.csv
+  337  ls -l
+  338  cd /usr/lib64/
+  339  ls -l libssl*
+  340  ls -l
+  341  cd -
+  342  cd ..
+  343  clear
+  344  ls
+  345  ls > list_dir.txt
+  346  cat list_dir.txt 
+  347  ls data_csv > list_dir.txt
+  348  cat list_dir.txt 
+  349  ls data_txt  >> list_dir.txt
+  350  cat list_dir.txt 
+  351  echo Halo > list_dir.txt 
+  352  cat list_dir.txt 
+  353  echo "Selamat Sore">> list_dir.txt 
+  354  cat list_dir.txt 
+  355  echo "Para Peserta Training HPC" >> list_dir.txt 
+  356  echo "Tetap Semangat" >> list_dir.txt 
+  357  cat list_dir.txt 
+  358  clear
+  359  ls
+  360  clear
+  361  ls Y
+  362  ls Y > error.txt
+  363  cat error.txt 
+  364  ls Y 2> error.txt
+  365  cat error.txt 
+  366  ls X 2>> error.txt
+  367  cat error.txt 
+  368  clear
+  369  uptime 
+  370  w
+  371  top
+  372  clear
+  373  free
+  374  free -h
+  375  clear
+  376  ls -l
+  377  cd wdir/
+  378  ls
+  379  touch lat1.txt
+  380  touch lat2.txt
+  381  squeue 
+  382  clear
+  383  squeue 
+  384  free -h
+  385  history 
+  386  history > history_command.txt
